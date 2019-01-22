@@ -1066,7 +1066,6 @@ label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 335px;
   height: auto;
   border: 1px solid #f0f0f0;
   background-color: white;
@@ -1079,6 +1078,10 @@ label {
 }
 
 @media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .section2 .card2__elements {
+    width: 335px;
+    max-width: 335px;
+  }
   .section2 .card2__elements p {
     font-size: 17px;
     margin: 0;
@@ -1102,6 +1105,8 @@ label {
 
 @media (min-width: 1000px) and (max-width: 1023px), (min-width: 1024px) and (max-width: 1365px), (min-width: 1366px) {
   .section2 .card2__elements {
+    width: 335px;
+    max-width: 335px;
     padding: 25px;
     width: 100%;
   }
@@ -1285,8 +1290,24 @@ label {
   }
 }
 
-.section3__guide .card-title {
+.section3__guide .cardtitle {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: white;
+}
+
+.section3__guide span {
   width: 10px;
+  background: pink;
+  padding: 10px;
+  height: auto;
+  margin-right: 20px;
 }
 
 .clients {
@@ -1382,14 +1403,34 @@ label {
 
 .magazine {
   padding: 50px 100px 100px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .magazine {
+    padding: 40px 20px 40px 20px;
+  }
 }
 
 .section5__title {
   margin-bottom: 50px;
 }
 
+@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .section5__title {
+    margin-bottom: 30px;
+  }
+}
+
 .section5__title h6 {
   font-size: 16px;
+  font-weight: 700;
 }
 
 .section5__images {
@@ -1401,12 +1442,87 @@ label {
   margin-top: 50px;
 }
 
+@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .section5__images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+  .section5__images {
+    margin-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1023px), (min-width: 1024px) and (max-width: 1365px), (min-width: 1366px) {
+  .section5__images {
+    margin-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: -30px;
+  }
+}
+
 .section5__images--img1 {
+  width: 130px;
   height: 40px;
+}
+
+@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .section5__images--img1 {
+    margin-bottom: 30px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+  .section5__images--img1 {
+    width: 130px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1023px), (min-width: 1024px) and (max-width: 1365px), (min-width: 1366px) {
+  .section5__images--img1 {
+    width: 130px;
+  }
 }
 
 .section5__images--img2 {
   height: 50px;
   margin-top: -12px;
+}
+
+@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .section5__images--img2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

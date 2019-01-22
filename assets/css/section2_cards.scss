@@ -261,7 +261,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 335px;
+        
         height: auto;
         border: 1px solid #f0f0f0;
         background-color: white;
@@ -271,6 +271,8 @@
             border: 1px solid #f0f0f0;
         }
         @media #{$mobileS,$mobileL}{
+            width: 335px;
+            max-width: 335px;
             p {
                 font-size: 17px;
                 margin: 0;
@@ -289,6 +291,8 @@
             }
         }
         @media #{$desktopS, $desktopM, $desktopL} {
+            width: 335px;
+        max-width: 335px;
             padding: 25px;
             width: 100%;
             p {

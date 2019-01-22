@@ -1,25 +1,69 @@
 @import 'theme';
 
 .magazine {
+    @media #{$mobileS, $mobileL} {
+        padding: 40px 20px 40px 20px;
+    }
     padding: 50px 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
 }
 .section5__title {
+    @media #{$mobileS, $mobileL} {
+        margin-bottom: 30px;
+    }
     margin-bottom: 50px;
     h6 {
         font-size: 16px;
+        font-weight: 700;
     }
 }
 .section5__images {
+    @media #{$mobileS, $mobileL} {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    @media #{$tablet} {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    @media #{$desktopS, $desktopM, $desktopL} {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: -30px;
+    }
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
 }
 
 .section5__images--img1 {
+    @media #{$mobileS, $mobileL} {
+        margin-bottom: 30px;
+        width: 150px;
+    }
+    @media #{$tablet} {
+        width: 130px;
+    }
+    @media #{$desktopS, $desktopM, $desktopL} {
+        width: 130px;
+    }
+    width: 130px;
     height: 40px;
 }
 
 .section5__images--img2 {
+    @media #{$mobileS, $mobileL} {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
     height: 50px;
     margin-top: -12px;
 }

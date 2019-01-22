@@ -9,7 +9,23 @@
   }
 }
 
-.section3__guide .card-title {
+.section3__guide .cardtitle {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: white;
+}
+
+.section3__guide span {
   width: 10px;
+  background: pink;
+  padding: 10px;
+  height: auto;
+  margin-right: 20px;
 }
 /*# sourceMappingURL=section3_guide.css.map */
