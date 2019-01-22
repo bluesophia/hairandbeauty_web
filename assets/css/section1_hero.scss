@@ -1,0 +1,83 @@
+@import 'theme';
+
+/* section1 */
+.section1 {
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    @media #{$mobileS, $mobileL}{
+        background: url('../images/home_Bg_Sm.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 235px 45px 40px 45px;
+        width: 100%;
+        height: auto;
+        h4 {
+            font-size: 30px;
+        }
+        p {
+            font-size:  14px;
+        }
+    }
+    @media #{$tablet}{
+        background: url('../images/home_Bg_Md.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 155px 50px 100px 100px;
+        h4 {
+            font-size: 40px;
+        }
+        p {
+            font-size:  18px;
+        }
+    }
+    @media #{$desktopS, $desktopM, $desktopL}{
+        background: url('../images/home_Bg_Lg.png');
+        background-repeat: no-repeat;
+        background-size: 120%;
+        padding: 130px 50px 70px 100px;
+        h4 {
+            font-size: 50px;
+            margin: 0;
+        }
+        p {
+            font-size:  20px;
+        }
+    }
+    .section1__title {
+    @media #{$mobileS, $mobileL}{
+        margin-bottom: 30px;
+        }
+    @media #{$tablet}{
+        margin-bottom: 30px;
+    }
+    @media #{$desktopS, $desktopM, $desktopL}{
+        margin-bottom: 30px;
+    }    
+    }
+    .btn {
+        border-radius: 20px;
+        opacity: 0.4;
+        a {
+            opacity: 1;
+        }
+    }
+    .action__btn {
+        display: flex;
+        width: 10px;
+        justify-content: flex-end;
+        text-align: center;
+        p {
+            font-size: 12px;
+        }
+        .action__btn__div {
+            margin-right: 20px;
+            margin-top: 163px;
+        }
+        @media #{$mobileS, $mobileL}{
+            display: none;
+        }
+    }
+}

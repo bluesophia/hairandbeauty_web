@@ -1,0 +1,18 @@
+$font-grey: #777777;
+$pink: #EF5A8F;
+$background-yellow: #FBF6ED;
+$background-pink: #F6CECB;
+$black: #333333;
+
+
+// padding
+$padding: 80px 100px 80px 100px;
+
+
+// media query
+$mobileS:"(min-width: 375px) and (max-width: 479px)";
+$mobileL:"(min-width: 480px) and (max-width: 767px)";
+$tablet:"(min-width: 768px) and (max-width: 999px)";
+$desktopS: "(min-width: 1000px) and (max-width: 1023px)";
+$desktopM: "(min-width: 1024px) and (max-width: 1365px)";
+$desktopL:"(min-width: 1366px)";

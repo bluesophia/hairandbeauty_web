@@ -1,0 +1,25 @@
+@import 'theme';
+
+.magazine {
+    padding: 50px 100px 100px 100px;
+}
+.section5__title {
+    margin-bottom: 50px;
+    h6 {
+        font-size: 16px;
+    }
+}
+.section5__images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.section5__images--img1 {
+    height: 40px;
+}
+
+.section5__images--img2 {
+    height: 50px;
+    margin-top: -12px;
+}

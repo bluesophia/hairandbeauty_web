@@ -1,0 +1,16 @@
+@import 'theme';
+
+.section3__guide{
+    width: 100%;
+    padding: 40px 20px 50px 20px;
+    .card-content{
+        @media #{$mobileS, $mobileL} {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+    .card-title {
+        width: 10px;
+    }
+}

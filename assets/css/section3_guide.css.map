@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gBAAgB,CAAA;EACZ,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,mBAAmB;CAW/B;;AATO,MAAM,EAAE,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK,IAAI,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAJlG,AAKY,gBALI,CAGZ,aAAa,CAEL,CAAC,CAAC;IACE,SAAS,EAAE,IAAI;GAClB;;;AAPb,AAUI,gBAVY,CAUZ,WAAW,CAAC;EACR,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "section3_guide.scss",
+        "theme.scss"
+    ],
+    "names": [],
+    "file": "section3_guide.css"
+}

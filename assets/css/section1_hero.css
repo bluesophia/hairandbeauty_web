@@ -1,0 +1,113 @@
+/* section1 */
+.section1 {
+  color: white;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .section1 {
+    background: url("../images/home_Bg_Sm.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 235px 45px 40px 45px;
+    width: 100%;
+    height: auto;
+  }
+  .section1 h4 {
+    font-size: 30px;
+  }
+  .section1 p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+  .section1 {
+    background: url("../images/home_Bg_Md.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 155px 50px 100px 100px;
+  }
+  .section1 h4 {
+    font-size: 40px;
+  }
+  .section1 p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1023px), (min-width: 1024px) and (max-width: 1365px), (min-width: 1366px) {
+  .section1 {
+    background: url("../images/home_Bg_Lg.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    padding: 130px 50px 70px 100px;
+  }
+  .section1 h4 {
+    font-size: 50px;
+    margin: 0;
+  }
+  .section1 p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .section1 .section1__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+  .section1 .section1__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1023px), (min-width: 1024px) and (max-width: 1365px), (min-width: 1366px) {
+  .section1 .section1__title {
+    margin-bottom: 30px;
+  }
+}
+
+.section1 .btn {
+  border-radius: 20px;
+  opacity: 0.4;
+}
+
+.section1 .btn a {
+  opacity: 1;
+}
+
+.section1 .action__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: center;
+}
+
+.section1 .action__btn p {
+  font-size: 12px;
+}
+
+.section1 .action__btn .action__btn__div {
+  margin-right: 20px;
+  margin-top: 163px;
+}
+
+@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .section1 .action__btn {
+    display: none;
+  }
+}
+/*# sourceMappingURL=section1_hero.css.map */

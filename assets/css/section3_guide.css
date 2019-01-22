@@ -1,0 +1,15 @@
+.section3__guide {
+  width: 100%;
+  padding: 40px 20px 50px 20px;
+}
+
+@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .section3__guide .card-content p {
+    font-size: 16px;
+  }
+}
+
+.section3__guide .card-title {
+  width: 10px;
+}
+/*# sourceMappingURL=section3_guide.css.map */
