@@ -87,7 +87,11 @@
         
     }
     .grid-container > div {
-        @media #{$desktopS, $desktopM, $desktopL} {
+        @media #{$desktopS} {
+            width: 200px;
+            height: 200px;
+        }
+        @media #{$desktopM, $desktopL} {
             // width: 220px;
             // height: 220px;
             width: 260px;
@@ -124,7 +128,16 @@
             }
             
         }
-        @media #{$desktopS, $desktopM, $desktopL} {
+        @media #{$desktopS} {
+            // width: 343px;
+            padding: 20px;
+            p {
+                font-size: 15px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        @media #{$desktopM, $desktopL} {
             // width: 343px;
             padding: 20px;
             p {
@@ -255,6 +268,13 @@
         @media #{$tablet} {
             margin-top: 30px;
         }
+        @media #{$desktopS} {
+            margin-top: 0px;
+        }
+        @media #{$desktopM, $desktopL} {
+            margin-top: 0px;
+        }
+        
     }
     .card2__elements {
         display: flex;
@@ -336,13 +356,20 @@
                 padding: 0;
             }
         }
-        @media #{$desktopS, $desktopM, $desktopL} {
+        @media #{$desktopS} {
             padding: 20px;
             p {
                 margin: 0;
                 padding: 0;
             }
+        }
+        @media #{$desktopM, $desktopL} {
+            padding: 20px;
+            p {
+                margin: 0;
+                padding: 0;
             }
+        }
         
         
         img {
@@ -407,6 +434,15 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    td {
+        @media #{$desktopS} {
+            padding: 6px 5px;
+        }
+        @media #{$desktopM} {
+            padding: 15px 5px;
+        }
+        
     }
     .oveflow-text {
         @media #{$mobileS, $mobileL, $desktopS, $desktopM, $desktopL} {

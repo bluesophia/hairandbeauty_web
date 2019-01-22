@@ -28,6 +28,7 @@
     }
     @media #{$tablet} {
         margin-top: 0px;
+        margin: -30px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
