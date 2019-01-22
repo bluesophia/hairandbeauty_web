@@ -26,7 +26,7 @@
     @media #{$tablet}{
         background: url('../images/home2_Bg_Sm.png');
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 130%;
         padding: 50px;
         h4 {
             font-size: 40px;
@@ -39,7 +39,7 @@
     @media #{$desktopS, $desktopM, $desktopL}{
         background: url('../images/home2_Bg_Lg.png');
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 130%;
         padding: 100px 50px;
         display: flex;
         flex-direction: row-reverse;

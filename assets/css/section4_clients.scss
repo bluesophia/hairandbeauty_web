@@ -1,14 +1,23 @@
 @import 'theme';
 
-
-.carousel .carousel-item {
-  width:300px !important;
-  margin-top: -80px !important;
-}
 .clients {
     @media #{$mobileS, $mobileL} {
         background: url('../images/client_Bg_Sm.png');
         background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 40px 20px 40px 20px;
+    }
+    @media #{$tablet} {
+        background: url('../images/client_Bg_Md.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 40px 20px 40px 20px;
+    }
+    @media #{$desktopS, $desktopM, $desktopL} {
+        background: url('../images/client_Bg_Lg.png');
+        background-size: 150%;
         background-repeat: no-repeat;
         width: 100%;
         padding: 40px 20px 40px 20px;
@@ -19,6 +28,9 @@
 }
 .section4__title {
     @media #{$mobileS, $mobileL} {
+        margin-bottom: 20px;
+    }
+    @media #{$tablet} {
         margin-bottom: 30px;
     }
     margin-bottom: 50px;
@@ -52,5 +64,21 @@
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    
+    .section4__imges__div {
+        // background-color: white !important;
+        // width: 300px !important;
+        // border-radius: 30px !important;
+        img {
+            display: flex;
+            justify-content: center;
+        }
+       
+    }
+}
+
+.slick-slide {
+    display: flex !important;
+    justify-content: center !important;
 }
 
