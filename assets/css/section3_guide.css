@@ -1,31 +1,165 @@
-.section3__guide {
-  width: 100%;
-  padding: 40px 20px 50px 20px;
-}
-
-@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
-  .section3__guide .card-content p {
-    font-size: 16px;
-  }
-}
-
-.section3__guide .cardtitle {
+.section3 {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  background: white;
 }
 
-.section3__guide span {
-  width: 10px;
-  background: pink;
-  padding: 10px;
+@media (min-width: 375px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .section3 {
+    padding: 40px 20px 50px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 999px), (min-width: 1000px) and (max-width: 1023px) {
+  .section3 {
+    padding: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+  .section3 {
+    padding: 50px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 1366px) {
+  .section3 {
+    padding: 50px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.section3 .section3__guide__card {
+  border: 1px solid #e0e0e0;
+  width: 280px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+  .section3 .section3__guide__card {
+    margin: 30px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1023px) {
+  .section3 .section3__guide__card {
+    margin: 50px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+  .section3 .section3__guide__card {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .section3 .section3__guide__card {
+    margin: 10px;
+  }
+}
+
+.section3 .section3__guide__card--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section3 .section3__guide__card--title--div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
   height: auto;
+  margin-top: -50px;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.section3 .section3__guide__card--title--div p {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.section3 .section3__guide__span {
+  width: 10px;
+  height: 50px;
+  opacity: 1;
+  background-color: #EF5A8F;
+  display: inline-block;
   margin-right: 20px;
+}
+
+.section3 .section3__guide__card__container {
+  width: 280px;
+  height: auto;
+  padding: 10px 20px;
+}
+
+.section3 .section3__guide__card__container p {
+  font-weight: bold;
+  font-size: 16px;
 }
 /*# sourceMappingURL=section3_guide.css.map */

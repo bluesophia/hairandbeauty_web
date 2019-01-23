@@ -1,28 +1,97 @@
 @import 'theme';
 
-.section3__guide{
+.section3{
     width: 100%;
-    padding: 40px 20px 50px 20px;
-    .card-content{
-        @media #{$mobileS, $mobileL} {
-            p {
-                font-size: 16px;
-            }
-        }
-    }
-    .cardtitle {
-        width: 100%;
+    display: flex;
+    @media #{$mobileS, $mobileL}{
+        padding: 40px 20px 50px 20px;
         display: flex;
-        flex-direction: row;
-        background: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-   span {
-        width: 10px;
-        background: pink;
-        padding: 10px;
-        height: auto;
-        margin-right: 20px;
+    @media #{$tablet, $desktopS}{
+        padding: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    @media #{$desktopM}{
+        padding: 50px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    @media #{$desktopL}{
+        padding: 50px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
+    .section3__guide__card{
+        border: 1px solid #e0e0e0;
+        width: 280px;
+        margin-bottom: 30px;
+        @media #{$tablet}{
+            margin: 30px;
+        }
+        @media #{$desktopS}{
+            margin: 50px;
+        }
+        @media #{$desktopM}{
+            margin: 10px;
+        }
+        @media #{$desktopL}{
+            margin: 10px;
+        }
+
+    }
+    .section3__guide__card--title{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .section3__guide__card--title--div{
+        display: flex;
+        align-items: center;
+        background:rgba(255,255,255, 0.3);;
+        width: 100%;
+        height: auto;
+        margin-top: -50px;
+        padding-left: 0;
+        padding-top: 0;
+        p {
+            margin-left: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .section3__guide__span {
+        // display: block;
+        // width: 20px;
+        // height: auto;
+        // background-color: $pink;
+        width: 10px;
+        height: 50px;
+        opacity: 1;
+        background-color: #EF5A8F;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .section3__guide__card__container {
+        width: 280px;
+        height: auto;
+        padding: 10px 20px;
+        p {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
 }
 
